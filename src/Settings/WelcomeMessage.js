@@ -7,7 +7,7 @@ export default function WelcomeMessage(props) {
         {({firstVisit}) =>
         firstVisit ? <div>
         Welcome to CryptoDash, please select your favorite coins to begin. {' '}
-        </div> : null
+        </div> : <div>hi</div>
       }
       </AppContext.Consumer>
     )
