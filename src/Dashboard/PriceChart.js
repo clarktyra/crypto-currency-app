@@ -6,12 +6,15 @@ import ReactHighcharts from 'react-highcharts';
 import HighchartsTheme from './HighchartsTheme';
 ReactHighcharts.Highcharts.setOptions(HighchartsTheme);
 
-export default function(){
+export default function( ){
     return (
         <AppContext.Consumer>
-            {({}) => 
+            {({historical}) => 
                 <Tile>
-                <ReactHighcharts config={highchartsConfig()} />
+                {   historical ?
+                    <ReactHighcharts config={highchartsConfig(historical)} />
+                    : <div> Loading Hisotircal Data </div>
+                }
             </Tile>
             }
             
