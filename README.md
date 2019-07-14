@@ -1,6 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This react website is a cryptocurrency dashboard utilizing data from the [CryptoCompare API](https://min-api.cryptocompare.com/). Built with lots of styled-components.
+
+There are two pages, a Settings page and a Dashboard page.
+
+### Settings Page
+Search for your favorite cryptocurrencies. Click the different coins you want to add to your list of favorites. Click the red X to remove from favorites. Max of 10 favorites. 
+
+### Dashboard Page
+See grid of favorites with viable data form current price and recent percent change. Red for a negative change, Green for a positive change. Click on a coin to view a graph of the coin's price history. Also, can toggle between days, weeks, & months. 
+
+<!-- ## Available Scripts
 
 In the project directory, you can run:
 
@@ -65,4 +75,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
