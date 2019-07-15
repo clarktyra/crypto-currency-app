@@ -10,6 +10,9 @@ Search for your favorite cryptocurrencies. Click the different coins you want to
 ### Dashboard Page
 See grid of favorites with viable data form current price and recent percent change. Red for a negative change, Green for a positive change. Click on a coin to view a graph of the coin's price history. Also, can toggle between days, weeks, & months. 
 
+### Link
+[CryptoDash deployed with heroku](https://cht-cryptocurrency.herokuapp.com/)
+
 <!-- ## Available Scripts
 
 In the project directory, you can run:
